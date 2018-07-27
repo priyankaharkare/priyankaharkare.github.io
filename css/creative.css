@@ -56,6 +56,8 @@ section {
 
 .section-heading {
   margin-top: 0;
+  font-family: 'Anton', cursive;
+  font-size: 45px;
 }
 
 ::-moz-selection {
@@ -248,6 +250,11 @@ header.masthead p {
   text-align: center;
 }
 
+.portfolio-photots {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
@@ -293,6 +300,15 @@ header.masthead p {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.btn-default {
+  color: #222;
+  background-color: white;
+  border-color: white;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
 .btn-xl {
   padding: 1rem 2rem;
 }
@@ -306,6 +322,23 @@ header.masthead p {
   color: #fff;
   background-color: #ee4b28 !important;
 }
+
+#portfolio {
+  position: relative;
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-image: linear-gradient(rgba(0,0,0,.6), rgba(0, 0, 0, 0.6)), url('../img/header3.jpg'); */
+  text-align: center;
+  position:relative;
+  background-attachment:fixed;
+}
+
+
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
