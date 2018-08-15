@@ -19,7 +19,7 @@ hr.light {
 }
 
 a {
-  color: #DDD9D6;
+  color: #F05F40;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -38,13 +38,6 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-
 .bg-primary {
   background-color: #F05F40 !important;
 }
@@ -58,12 +51,7 @@ p {
 }
 
 section {
-padding: 100px 0;
-  /* padding: 8rem 0; */
-}
-
-devicon-git-plain-wordmark {
-
+  padding: 8rem 0;
 }
 
 .section-heading {
@@ -183,7 +171,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/lightbulb1.jpg");
+  background-image: url("../img/header.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -287,18 +275,6 @@ header.masthead p {
   opacity: 1;
 }
 
-.project-link {
-  color: #FFF;
-}
-
-.project-link:hover {
-  color: white;
-}
-
-i {
-  color: white;
-}
-
 .portfolio-box:focus {
   outline: none;
 }
@@ -345,10 +321,6 @@ i {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
   background-color: #ee4b28 !important;
-}
-
-#ph-image {
-  border-radius: 50%;
 }
 
 #portfolio {
