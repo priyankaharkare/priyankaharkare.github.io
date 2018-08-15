@@ -38,6 +38,13 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
 .bg-primary {
   background-color: #F05F40 !important;
 }
@@ -51,7 +58,12 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+padding: 100px 0;
+  /* padding: 8rem 0; */
+}
+
+devicon-git-plain-wordmark {
+
 }
 
 .section-heading {
@@ -171,7 +183,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/lightbulb1.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -273,6 +285,18 @@ header.masthead p {
 
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.project-link {
+  color: white;
+}
+
+.project-link:hover {
+  color: white;
+}
+
+i {
+  color: white;
 }
 
 .portfolio-box:focus {
