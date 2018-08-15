@@ -347,6 +347,10 @@ i {
   background-color: #ee4b28 !important;
 }
 
+#ph-image {
+  border-radius: 50%;
+}
+
 #portfolio {
   position: relative;
   min-height: 100%;
