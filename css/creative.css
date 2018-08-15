@@ -19,7 +19,7 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: #DDD9D6;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -288,7 +288,7 @@ header.masthead p {
 }
 
 .project-link {
-  color: white;
+  color: #FFF;
 }
 
 .project-link:hover {
