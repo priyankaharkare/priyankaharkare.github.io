@@ -19,7 +19,7 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: white;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -71,6 +71,18 @@ section {
   background: #212529;
   text-shadow: none;
 }
+
+.divA {
+  text-align: left;
+}
+
+.divB {
+  text-align: left;
+}
+
+/* i {
+  color: white;
+} */
 
 img::selection {
   color: #fff;
@@ -299,6 +311,10 @@ header.masthead p {
   border-radius: 300px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+
+/* .project-link {
+  color: white;
+} */
 
 .btn-default {
   color: #222;
