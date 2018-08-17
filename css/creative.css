@@ -57,7 +57,7 @@ section {
   padding: 8rem 0;
 }
 
-/* devicon-git-plain-wordmark {
+ devicon-git-plain-wordmark {
 }
 
 .section-heading {
@@ -320,7 +320,7 @@ header.masthead p {
 }
 
 .project-link {
-  color: FFFFFF;
+  color: #fff;
 }
 
 .no-gutters > [class*='col-'] {
