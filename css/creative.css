@@ -8,6 +8,10 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.project-links {
+  font-size: 56px;
+}
+
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -319,13 +323,15 @@ header.masthead p {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-.project-link {
-  color: #fff;
-}
+/* .project-link {
+  color: #fff !important;
+} */
 
 .no-gutters > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .btn-default {
@@ -360,7 +366,7 @@ header.masthead p {
   -o-background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-image: linear-gradient(rgba(0,0,0,.6), rgba(0, 0, 0, 0.6)), url('../img/header3.jpg'); */
+  background-image: linear-gradient(rgba(0,0,0,.6), rgba(0, 0, 0, 0.6)), url('../img/header3.jpg');
   text-align: center;
   position:relative;
   background-attachment:fixed;
